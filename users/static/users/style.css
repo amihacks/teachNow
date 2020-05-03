@@ -1,7 +1,52 @@
 body {
-    background-color: black ;
-    color: ghostwhite;
+    background-color: #c3edea ;
+    text-align: center;
 }
-a:visited {
-  color: white;
+
+form {
+  max-width: 400px;
+  margin: 40px auto 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+.top-container{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn {
+    padding: 19px 39px 18px 39px;
+    color: #ffffff;
+    background-color: #40bad5;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #40bad5;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    padding: 19px 39px 18px 39px;
+    color: #ffffff;
+    background-color: #00909e;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #00909e;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.text-muted{
+    font-size: large;
 }
